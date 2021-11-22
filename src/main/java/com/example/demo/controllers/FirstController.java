@@ -10,4 +10,9 @@ public class FirstController {
 public String	FirstTest(){
 		return "ramramaSTS";
 	}
+	
+	@GetMapping("/second")
+public String	secondTest(){
+		return "second";
+	}
 }
