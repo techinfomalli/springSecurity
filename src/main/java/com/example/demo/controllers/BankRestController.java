@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BankRestController {
 	@GetMapping("/home")
 	public String home() {
-		String msg = "Welcome to Ashok IT Bank..!!";
+		String msg = "Welcome to Ashok IT Bank..!!!";
 		return msg;
 	}
 
